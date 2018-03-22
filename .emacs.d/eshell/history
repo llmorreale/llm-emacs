@@ -1,0 +1,17 @@
+ls
+cd Y:/Witnesstree_fia/
+ls
+cd PROTOCOL/
+ls
+ls R-Code/
+ls R-Code/data_processing/
+git
+git status
+ls
+cd y:/Morreale/Fire_Project/
+ls
+find-file-other-frame Scripts/Reburn_MonteCarlo_simulation.R
+find-file Scripts/Reburn_MonteCarlo_simulation.R
+find-file Scripts/reburn-mc-parallel.R
+popd
+find-file  ~/Desktop/script.ahk

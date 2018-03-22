@@ -1,0 +1,26 @@
+((("conds$SUBPCOND_PROP" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("d:/Work/Classes/GRE516/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("d:/Work/Classes/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("d:/Work/" .
+   [0 0 0 0 0 0 0 1])
+  ("burned.id" .
+   [0 0 0 0 1 0 0 0 0])
+  ("burned.cells" .
+   [0 0 0 0 0 0 1 0 0 0 0 1])
+  ("klamath$TotalBurnArea" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("create.raster" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("emptyraster" .
+   [0 0 0 0 0 0 0 0 0 0 2])
+  ("writeRaster" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("raster.list" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("install.packages" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("state_trees$UNIQUESUBP" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])))
