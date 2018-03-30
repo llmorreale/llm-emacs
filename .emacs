@@ -4,7 +4,7 @@
    'package-archives
    '("melpa" . "http://melpa.org/packages/") t)
 (package-initialize))
-(load-theme 'zenburn t)
+(load-theme 'molokai t)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -36,7 +36,7 @@
  '(fci-rule-color "#073642")
  '(package-selected-packages
    (quote
-    (markdown-mode zenburn-theme solarized-theme polymode auto-complete color-theme-sanityinc-tomorrow ## color-theme-sanityinc-solarized)))
+    (molokai-theme markdown-mode zenburn-theme solarized-theme polymode auto-complete color-theme-sanityinc-tomorrow ## color-theme-sanityinc-solarized)))
  '(scroll-bar-mode nil)
  '(scroll-down-aggressively 1.0)
  '(show-paren-mode t)
@@ -68,13 +68,13 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Lucida Console" :foundry "outline" :slant normal :weight normal :height 113 :width normal))))
- '(font-lock-builtin-face ((t (:foreground "light sea green"))))
- '(font-lock-constant-face ((t (:foreground "#7aa6da"))))
- '(font-lock-function-name-face ((t (:foreground "plum3"))))
- '(font-lock-keyword-face ((t (:foreground "plum3"))))
- '(font-lock-string-face ((t (:foreground "#b9ca4a"))))
- '(font-lock-type-face ((t (:foreground "dark orange")))))
+ '(default ((t (:family "DejaVu Sans Mono" :foundry "outline" :slant normal :weight normal :height 113 :width normal)))))
+;; '(font-lock-builtin-face ((t (:foreground "light sea green"))))
+;; '(font-lock-constant-face ((t (:foreground "#7aa6da"))))
+;; '(font-lock-function-name-face ((t (:foreground "plum3"))))
+;; '(font-lock-keyword-face ((t (:foreground "plum3"))))
+;; '(font-lock-string-face ((t (:foreground "#b9ca4a"))))
+;; '(font-lock-type-face ((t (:foreground "dark orange")))))
 (require 'auto-complete-config)
 (ac-config-default)
 (setq ac-auto-start nil)
@@ -131,7 +131,8 @@
 (require 'poly-R)
 (require 'poly-markdown)
 (add-to-list 'auto-mode-alist '("\\.Rmd" . poly-markdown+r-mode))
-
+(require 'elpy)
+(elpy-enable)
 ;;; opening recent files(require 'recentf)
 (recentf-mode 1)
 (setq recentf-max-menu-items 25)
@@ -143,3 +144,5 @@
 (global-set-key "\C-w" 'backward-kill-word)
 (global-set-key "\C-x\ \C-k" 'kill-region)
 (global-set-key "\C-c\ \C-k" 'kill-region)
+
+

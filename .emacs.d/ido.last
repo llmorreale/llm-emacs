@@ -2,10 +2,11 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/media/luca822/7DC7C8735CD909C3/Personal/" . "CarbonGame/")
  ("/media/luca822/7DC7C8735CD909C3/Research/FIA_edge/src/" . "modified-plot-level/")
  ("/media/luca822/7DC7C8735CD909C3/Research/FIA_edge/" . "src/")
  ("/media/luca822/7DC7C8735CD909C3/Research/" . "FIA_edge/")
- ("/media/luca822/7DC7C8735CD909C3/" . "Research/")
+ ("/media/luca822/7DC7C8735CD909C3/" . "Personal/")
  ("/media/luca822/" . "7DC7C8735CD909C3/")
  ("/media/" . "luca822/")
  ("/" . "media/")
@@ -30,10 +31,12 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/media/luca822/7DC7C8735CD909C3/Personal/CarbonGame/"
+ "/home/luca822/"
+ "~/"
  "/media/luca822/7DC7C8735CD909C3/Research/FIA_edge/src/"
  "/media/luca822/7DC7C8735CD909C3/Research/FIA_edge/src/modified-plot-level/"
  "/home/luca822/Desktop/"
- "/home/luca822/"
  "d:/Work/Papers/pnet-sensitivity/"
  "d:/Dropbox/PnET Sensitivity Manuscript/Figures/src/"
  "d:/Work/Scripts/Figs/"
@@ -56,31 +59,39 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "test.py"
+ ".emacs"
  "2 - Create tree dataset.R"
  "1-create-plot-and-condition-datset-SUBPLOT.R"
  "3-MASTERPLOT-Add-tree-info-to-plots-SUBPLOT.R"
  "3 - MASTER PLOT - Add tree info to plots - VAL BA BY SPECIES.R"
  "BACKUP-SUBPLOT-script.R"
- ".emacs"
  "occupied_cells_local.R"
  "Ctree.R"
  "multiplot.R"
- "newest_sens_plots.R"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/luca822/" (23126 37846 487283 194000) ".mozilla/" ".Xauthority" ".config/" ".gnupg/" ".nano/" ".emacs" "initrd.img" "Desktop/" ".rstudio-desktop/" "Pictures/" ".ICEauthority" "../" ".xbindkeysrc" ".emacs.d/" "initrd.img.old" "./" ".sudo_as_admin_successful" "Public/" ".bashrc" ".dropbox-dist/" "examples.desktop" ".Rhistory" ".xbindkeyssrc" ".cache/" "Music/" ".dmrc" ".local/" ".xsession-errors" "Videos/" "Documents/" ".xsession-errors.old" "R/" "Downloads/" ".profile" ".gconf/" "vmlinuz" ".emacs~" "Templates/" ".dropbox/" ".bash_logout" ".bash_history")
+ ("/media/luca822/7DC7C8735CD909C3/Personal/CarbonGame/" (23229 11449 20394 700000) "test.py" "ground.png" ".#test.py" "#test.py#" "../" "./")
+
+ ("/media/luca822/7DC7C8735CD909C3/Personal/" (23229 10606 710094 200000) "Documents/" "CarbonGame/" "../" "./")
+
+ ("/media/luca822/7DC7C8735CD909C3/" (23219 59942 602548 100000) "System Volume Information/" "Software/" "Research/" "Presentations/" "Personal/" "llm-emacs/" "Literature/" "Dropbox/" "Applications/" ".Trash-1000/" "$RECYCLE.BIN/" "../" "./")
+
+ ("/media/luca822/" (23229 7407 202491 857000) "../" "./" "7DC7C8735CD909C3/")
+
+ ("/home/luca822/" (23229 10531 387258 572000) ".mozilla/" ".Xauthority" ".config/" ".gnupg/" ".gitconfig" ".nano/" ".python_history" ".emacs" "initrd.img" "#.emacs#" "Desktop/" ".rstudio-desktop/" "Pictures/" ".ICEauthority" "../" ".xbindkeysrc" ".emacs.d/" "initrd.img.old" "./" ".sudo_as_admin_successful" "Public/" ".bashrc" ".dropbox-dist/" "examples.desktop" ".Rhistory" ".#.emacs" ".xbindkeyssrc" ".cache/" "Music/" ".dmrc" ".local/" ".xsession-errors" "Videos/" "Documents/" ".xsession-errors.old" "R/" ".ssh/" "Downloads/" ".profile" ".gconf/" "vmlinuz" ".emacs~" "Templates/" ".dropbox/" ".bash_logout" ".bashrc~" ".bash_history")
+
+ ("~/" (23229 8364 382064 485000) ".mozilla/" ".Xauthority" ".config/" ".gnupg/" ".gitconfig" ".nano/" ".python_history" ".emacs" "initrd.img" "Desktop/" ".rstudio-desktop/" "Pictures/" ".ICEauthority" "../" ".xbindkeysrc" ".emacs.d/" "initrd.img.old" "./" ".sudo_as_admin_successful" "Public/" ".bashrc" ".dropbox-dist/" "examples.desktop" ".Rhistory" ".xbindkeyssrc" ".cache/" "Music/" ".dmrc" ".local/" ".xsession-errors" "Videos/" "Documents/" ".xsession-errors.old" "R/" ".ssh/" "Downloads/" ".profile" ".gconf/" "vmlinuz" ".emacs~" "Templates/" ".dropbox/" ".bash_logout" ".bashrc~" ".bash_history")
+
+ ("/media/luca822/7DC7C8735CD909C3/llm-emacs/" (23220 2379 774330 700000) "README.md" ".git/" ".emacs.d/" ".emacs" "../" "./")
 
  ("/media/luca822/7DC7C8735CD909C3/Research/FIA_edge/src/" (23127 26787 281803 700000) "modified-plot-level/" "downloadFIA.R" "3-MASTERPLOT-Add-tree-info-to-plots-SUBPLOT.R~" "3-MASTERPLOT-Add-tree-info-to-plots-SUBPLOT.R" "2 - Create tree dataset.R~" "2 - Create tree dataset.R" "1-create-plot-and-condition-datset-SUBPLOT.R~" "1-create-plot-and-condition-datset-SUBPLOT.R" ".Rhistory" ".#downloadFIA.R" ".#3-MASTERPLOT-Add-tree-info-to-plots-SUBPLOT.R" "#downloadFIA.R#" "#3-MASTERPLOT-Add-tree-info-to-plots-SUBPLOT.R#" "../" "./")
 
  ("/media/luca822/7DC7C8735CD909C3/Research/FIA_edge/src/modified-plot-level/" (23125 13434 446914 900000) "3 - MASTER PLOT - Add tree info to plots - VAL BA BY SPECIES.R" "2 - Create tree dataset.R~" "2 - Create tree dataset.R" ".#3 - MASTER PLOT - Add tree info to plots - VAL BA BY SPECIES.R" "#3 - MASTER PLOT - Add tree info to plots - VAL BA BY SPECIES.R#" "../" "./")
 
  ("/media/luca822/7DC7C8735CD909C3/Research/FIA_edge/data/" (23125 9806 237034 800000) "rawFIA/" "processedFIA/" "fips_codes.txt" "../" "./")
-
- ("/media/luca822/7DC7C8735CD909C3/" (23123 50200 893948 500000) "System Volume Information/" "Research/" "Presentations/" "Literature/" "Dropbox/" "Classes/" ".Trash-1000/" "$RECYCLE.BIN/" "../" "./")
-
- ("/media/luca822/" (23125 11077 935255 326000) "../" "./" "7DC7C8735CD909C3/")
 
  ("/home/luca822/Desktop/" (23123 49775 804439 77000) "../" "./" "BACKUP-SUBPLOT-script.R")
 
